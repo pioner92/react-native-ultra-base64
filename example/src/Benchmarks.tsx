@@ -87,7 +87,7 @@ const Benchmarks = () => {
         <Text style={styles.heading}>0.9MB</Text>
       </View>
       <View style={styles.lib}>
-        <Text style={styles.heading}>react-native-quick-base64</Text>
+        <Text style={styles.heading}>react-native-quick-base64 (v3)</Text>
         <Text style={styles.result}>
           {nativeBase64SmallResult > 0
             ? `${round(nativeBase64SmallResult, 2)} ms`
@@ -101,7 +101,7 @@ const Benchmarks = () => {
       </View>
 
       <View style={styles.lib}>
-        <Text style={styles.heading}>react-native-turbo-base64</Text>
+        <Text style={[styles.heading, {marginRight:30}]}>{'react-native-turbo-base64'}</Text>
         <Text style={styles.result}>
           {turbo64SmallResult > 0 ? `${round(turbo64SmallResult, 2)} ms` : ''}
         </Text>
