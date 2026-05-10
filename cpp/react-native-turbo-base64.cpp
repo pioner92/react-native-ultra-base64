@@ -97,7 +97,7 @@ void rntb_base64::install(facebook::jsi::Runtime *runtime) {
           const auto r = simdutf::base64_to_binary_safe(
               inputData, inputSize, reinterpret_cast<char *>(result->data()),
               outLen, simdutf::base64_default_or_url,
-              simdutf::last_chunk_handling_options::loose, true);
+              simdutf::last_chunk_handling_options::loose, false);
 
           if (r.error != simdutf::error_code::SUCCESS) [[unlikely]] {
             throw std::runtime_error("Input is not valid base64-encoded data");
