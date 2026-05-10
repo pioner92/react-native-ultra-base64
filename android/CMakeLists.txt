@@ -7,7 +7,8 @@ set (CMAKE_CXX_STANDARD 17)
 
 add_library(react-native-turbo-base64 SHARED
         ../cpp/react-native-turbo-base64.cpp
-        ../cpp/base64.h
+        ../cpp/simdutf.cpp
+        ../cpp/simdutf.h
         cpp-adapter.cpp
 )
 

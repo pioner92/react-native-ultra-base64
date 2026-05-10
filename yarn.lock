@@ -8096,13 +8096,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-quick-base64@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "react-native-quick-base64@npm:2.2.2"
+"react-native-quick-base64@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "react-native-quick-base64@npm:3.0.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/25a550388ce51ada9c63be3b301f1c0e1de160ff3c3b956ea081febecf6d8a2cd6ed510b5cb34403c540a2a475c614bad3b098f922fb88cc9dd72ebf1949d972
+  checksum: 10c0/1197b6681a827815d38f774e99645c74c3bc63de3d352ebed17692a06ec6c98fb5583bfe4c6615252fba6ead8405a149866df8a32f2d4b75b2f54cb3658b2bd1
   languageName: node
   linkType: hard
 
@@ -8130,7 +8130,7 @@ __metadata:
     react-native: "npm:0.83.0"
     react-native-builder-bob: "npm:^0.40.17"
     react-native-monorepo-config: "npm:^0.3.1"
-    react-native-quick-base64: "npm:^2.2.2"
+    react-native-quick-base64: "npm:^3.0.0"
     stream-browserify: "npm:^3.0.0"
     util: "npm:^0.12.5"
   languageName: unknown
