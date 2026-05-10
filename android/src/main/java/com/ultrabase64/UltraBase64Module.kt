@@ -1,4 +1,4 @@
-package com.turbobase64
+package com.ultrabase64
 
 import android.util.Log
 import com.facebook.react.bridge.ReactApplicationContext
@@ -6,7 +6,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.common.annotations.FrameworkAPI
 
-class TurboBase64Module(private val reactContext: ReactApplicationContext) :
+class UltraBase64Module(private val reactContext: ReactApplicationContext) :
   ReactContextBaseJavaModule(reactContext) {
 
     override fun getName(): String {
@@ -14,9 +14,9 @@ class TurboBase64Module(private val reactContext: ReactApplicationContext) :
     }
 
     companion object {
-        const val NAME = "RNTurboBase64"
+        const val NAME = "RNUltraBase64"
         init {
-            System.loadLibrary("react-native-turbo-base64")
+            System.loadLibrary("react-native-ultra-base64")
         }
 
         @OptIn(FrameworkAPI::class)
@@ -27,7 +27,7 @@ class TurboBase64Module(private val reactContext: ReactApplicationContext) :
     @OptIn(FrameworkAPI::class)
     @ReactMethod(isBlockingSynchronousMethod = true)
     fun install(): Boolean {
-        Log.d("react-native-turbo-base64", "install() called")
+        Log.d("react-native-ultra-base64", "install() called")
         nativeInstall(
             reactContext.javaScriptContextHolder!!.get(),
         )

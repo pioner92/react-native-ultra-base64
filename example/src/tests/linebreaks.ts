@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { toByteArray } from 'react-native-turbo-base64'
+import { toByteArray } from 'react-native-ultra-base64'
 import { describe, it } from '../MochaRNAdapter'
 import { mapArr } from './util'
 

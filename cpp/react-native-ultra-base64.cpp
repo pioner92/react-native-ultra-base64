@@ -1,11 +1,11 @@
 //
-//  react-native-turbo-base64.cpp
-//  react-native-turbo-base64
+//  react-native-ultra-base64.cpp
+//  react-native-ultra-base64
 //
 //  Created by Oleksandr Shumihin on 7/2/26.
 //
 
-#include "react-native-turbo-base64.h"
+#include "react-native-ultra-base64.h"
 #include "simdutf.h"
 #include <algorithm>
 #include <cstdint>
@@ -33,7 +33,7 @@ private:
   size_t size_;
 };
 
-void rntb_base64::install(facebook::jsi::Runtime *runtime) {
+void rnub_base64::install(facebook::jsi::Runtime *runtime) {
 
   jsi::Runtime &rt = *runtime;
 

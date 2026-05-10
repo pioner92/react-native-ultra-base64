@@ -1,6 +1,6 @@
 #pragma once
 #import <React/RCTBridgeModule.h>
 
-@interface RNTurboBase64 : NSObject <RCTBridgeModule>
+@interface RNUltraBase64 : NSObject <RCTBridgeModule>
 
 @end

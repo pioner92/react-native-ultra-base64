@@ -3,7 +3,7 @@ import {
   byteLength,
   fromByteArray,
   toByteArray
-} from 'react-native-turbo-base64'
+} from 'react-native-ultra-base64'
 import { describe, it } from '../MochaRNAdapter'
 import { mapArr, mapStr } from './util'
 

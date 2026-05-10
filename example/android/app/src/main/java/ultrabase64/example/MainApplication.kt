@@ -1,4 +1,4 @@
-package turbobase64.example
+package ultrabase64.example
 
 import android.app.Application
 import com.facebook.react.PackageList

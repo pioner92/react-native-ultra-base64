@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "TurboBase64Example.app"
-               BlueprintName = "TurboBase64Example"
-               ReferencedContainer = "container:TurboBase64Example.xcodeproj">
+               BuildableName = "UltraBase64Example.app"
+               BlueprintName = "UltraBase64Example"
+               ReferencedContainer = "container:UltraBase64Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "TurboBase64ExampleTests.xctest"
-               BlueprintName = "TurboBase64ExampleTests"
-               ReferencedContainer = "container:TurboBase64Example.xcodeproj">
+               BuildableName = "UltraBase64ExampleTests.xctest"
+               BlueprintName = "UltraBase64ExampleTests"
+               ReferencedContainer = "container:UltraBase64Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "TurboBase64Example.app"
-            BlueprintName = "TurboBase64Example"
-            ReferencedContainer = "container:TurboBase64Example.xcodeproj">
+            BuildableName = "UltraBase64Example.app"
+            BlueprintName = "UltraBase64Example"
+            ReferencedContainer = "container:UltraBase64Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "TurboBase64Example.app"
-            BlueprintName = "TurboBase64Example"
-            ReferencedContainer = "container:TurboBase64Example.xcodeproj">
+            BuildableName = "UltraBase64Example.app"
+            BlueprintName = "UltraBase64Example"
+            ReferencedContainer = "container:UltraBase64Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

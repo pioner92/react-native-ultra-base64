@@ -1,15 +1,15 @@
-#import "TurboBase64.h"
+#import "UltraBase64.h"
 #import <React/RCTBridge+Private.h>
 #import <ReactCommon/RCTTurboModule.h>
 #import <React/RCTBridge.h>
 #import <React/RCTUtils.h>
 #import <jsi/jsi.h>
-#import "react-native-turbo-base64.h"
+#import "react-native-ultra-base64.h"
 
 using namespace facebook;
 
-@implementation RNTurboBase64
-RCT_EXPORT_MODULE(RNTurboBase64)
+@implementation RNUltraBase64
+RCT_EXPORT_MODULE(RNUltraBase64)
 
 @synthesize bridge = _bridge;
 @synthesize methodQueue = _methodQueue;
@@ -19,7 +19,7 @@ RCT_EXPORT_MODULE(RNTurboBase64)
 }
 
 RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(install){
-	NSLog(@"Installing JSI bindings for react-native-turbo-base64 ...");
+	NSLog(@"Installing JSI bindings for react-native-ultra-base64 ...");
 	RCTBridge* bridge = [RCTBridge currentBridge];
 	RCTCxxBridge* cxxBridge = (RCTCxxBridge*)bridge;
 
@@ -32,7 +32,7 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(install){
 		return @false;
 	}
 
-	rntb_base64::install(jsiRuntime);
+	rnub_base64::install(jsiRuntime);
 
 	return @true;
 }

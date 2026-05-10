@@ -16,7 +16,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'TurboBase64Example' do
+target 'UltraBase64Example' do
   config = use_native_modules!
 
   use_react_native!(
@@ -32,5 +32,16 @@ target 'TurboBase64Example' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+        installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        # Xcode 26.4 fix
+        if target.name == 'fmt'
+           config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++17'
+        end
+        end
+      end
+
+
   end
 end

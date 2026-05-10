@@ -6,13 +6,13 @@ declare global {
 }
 
 
-let RNTurboBase64Initialized = !!globalThis.encodeBase64FromArrayBuffer;
+let RNUltraBase64Initialized = !!globalThis.encodeBase64FromArrayBuffer;
 
-if (!RNTurboBase64Initialized) {
-  if (NativeModules.RNTurboBase64) {
-    NativeModules.RNTurboBase64.install();
-    RNTurboBase64Initialized = !!globalThis.encodeBase64FromArrayBuffer;
-    console.log('✅ react-native-turbo-base64 initialized successfully')
+if (!RNUltraBase64Initialized) {
+  if (NativeModules.RNUltraBase64) {
+    NativeModules.RNUltraBase64.install();
+    RNUltraBase64Initialized = !!globalThis.encodeBase64FromArrayBuffer;
+    console.log('✅ react-native-ultra-base64 initialized successfully')
   }
 }
 

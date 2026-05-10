@@ -1,12 +1,12 @@
-# ⚡ react-native-turbo-base64
+# ⚡ react-native-ultra-base64
 
 **The fastest base64 encoding/decoding library for React Native**
 
 Ultra-fast base64 operations powered by optimized C++ with JSI bindings. Built for performance-critical applications that need blazing-fast base64 encoding and decoding.
 
-[![npm version](https://img.shields.io/npm/v/react-native-turbo-base64.svg)](https://www.npmjs.com/package/react-native-turbo-base64)
-[![license](https://img.shields.io/npm/l/react-native-turbo-base64.svg)](https://github.com/pioner92/react-native-turbo-base64/blob/main/LICENSE)
-[![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/pioner92/react-native-turbo-base64)
+[![npm version](https://img.shields.io/npm/v/react-native-ultra-base64.svg)](https://www.npmjs.com/package/react-native-ultra-base64)
+[![license](https://img.shields.io/npm/l/react-native-ultra-base64.svg)](https://github.com/pioner92/react-native-ultra-base64/blob/main/LICENSE)
+[![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/pioner92/react-native-ultra-base64)
 
 ---
 
@@ -37,13 +37,13 @@ Benchmark against **react-native-quick-base64 v3**
 ## 📦 Installation
 
 ```sh
-npm install react-native-turbo-base64
+npm install react-native-ultra-base64
 ```
 
 or
 
 ```sh
-yarn add react-native-turbo-base64
+yarn add react-native-ultra-base64
 ```
 
 ### iOS Setup
@@ -66,7 +66,7 @@ import {
   toByteArray,
   byteLength,
   trimBase64Padding
-} from 'react-native-turbo-base64';
+} from 'react-native-ultra-base64';
 
 // 🔵 Encode to base64
 const data = new Uint8Array([72, 101, 108, 108, 111]);
@@ -171,7 +171,7 @@ console.log(trimmed); // "SGVsbG8"
 ### Working with Images
 
 ```typescript
-import { toByteArray, fromByteArray } from 'react-native-turbo-base64';
+import { toByteArray, fromByteArray } from 'react-native-ultra-base64';
 import RNFS from 'react-native-fs';
 
 // Load and decode base64 image
@@ -193,7 +193,7 @@ async function encodeImage(filePath: string) {
 ### Processing Large Files
 
 ```typescript
-import { toByteArray, fromByteArray } from 'react-native-turbo-base64';
+import { toByteArray, fromByteArray } from 'react-native-ultra-base64';
 
 // Efficiently process large base64 data
 function processLargeFile(base64String: string) {
@@ -211,7 +211,7 @@ function processLargeFile(base64String: string) {
 ### API Requests with Base64 Bodies
 
 ```typescript
-import { fromByteArray, toByteArray } from 'react-native-turbo-base64';
+import { fromByteArray, toByteArray } from 'react-native-ultra-base64';
 
 // Send binary data as base64
 async function uploadBinaryData(data: Uint8Array) {
@@ -238,7 +238,7 @@ async function downloadBinaryData() {
 ### Crypto Integration
 
 ```typescript
-import { toByteArray, fromByteArray } from 'react-native-turbo-base64';
+import { toByteArray, fromByteArray } from 'react-native-ultra-base64';
 import * as Crypto from 'expo-crypto';
 
 async function encryptAndEncode(plaintext: string) {
@@ -276,7 +276,7 @@ async function encryptAndEncode(plaintext: string) {
 
 ## 🆚 Comparison with react-native-quick-base64
 
-| Feature | react-native-turbo-base64 | react-native-quick-base64 |
+| Feature | react-native-ultra-base64 | react-native-quick-base64 |
 |---------|--------------------------|---------------------------|
 | **Speed** | ⚡⚡⚡⚡⚡ ~2x faster | ⚡⚡⚡ Fast |
 | **JSI Bindings** | ✅ | ✅ |
@@ -342,8 +342,8 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for det
 
 ```sh
 # Clone the repo
-git clone https://github.com/pioner92/react-native-turbo-base64.git
-cd react-native-turbo-base64
+git clone https://github.com/pioner92/react-native-ultra-base64.git
+cd react-native-ultra-base64
 
 # Install dependencies
 yarn
@@ -371,7 +371,7 @@ MIT © [Alex Shumihin](https://github.com/pioner92)
 
 ## ⭐ Show Your Support
 
-If this library helps your project, please give it a ⭐ on [GitHub](https://github.com/pioner92/react-native-turbo-base64)!
+If this library helps your project, please give it a ⭐ on [GitHub](https://github.com/pioner92/react-native-ultra-base64)!
 
 ---
 

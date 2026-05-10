@@ -1,7 +1,7 @@
 /* global performance */
 import { useState } from 'react'
 import { StyleSheet, View, Text, Pressable, Platform } from 'react-native'
-import { fromByteArray as fromByteArrayTurbo, toByteArray as toByteArrayTurbo } from 'react-native-turbo-base64'
+import { fromByteArray as fromByteArrayTurbo, toByteArray as toByteArrayTurbo } from 'react-native-ultra-base64'
 import { toByteArray, fromByteArray } from 'react-native-quick-base64'
 // 5.3 KB
 import { data as smallData } from './image.json'
@@ -101,7 +101,7 @@ const Benchmarks = () => {
       </View>
 
       <View style={styles.lib}>
-        <Text style={[styles.heading, {marginRight:30}]}>{'react-native-turbo-base64'}</Text>
+        <Text style={[styles.heading, {marginRight:30}]}>{'react-native-ultra-base64'}</Text>
         <Text style={styles.result}>
           {turbo64SmallResult > 0 ? `${round(turbo64SmallResult, 2)} ms` : ''}
         </Text>

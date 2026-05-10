@@ -8106,9 +8106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-turbo-base64-example@workspace:example":
+"react-native-ultra-base64-example@workspace:example":
   version: 0.0.0-use.local
-  resolution: "react-native-turbo-base64-example@workspace:example"
+  resolution: "react-native-ultra-base64-example@workspace:example"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@babel/preset-env": "npm:^7.25.3"
@@ -8136,9 +8136,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-turbo-base64@workspace:.":
+"react-native-ultra-base64@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-turbo-base64@workspace:."
+  resolution: "react-native-ultra-base64@workspace:."
   dependencies:
     "@react-native/babel-preset": "npm:0.83.0"
     "@release-it/conventional-changelog": "npm:^10.0.1"

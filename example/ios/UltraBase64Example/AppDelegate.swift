@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
 
     factory.startReactNative(
-      withModuleName: "TurboBase64Example",
+      withModuleName: "UltraBase64Example",
       in: window,
       launchOptions: launchOptions
     )

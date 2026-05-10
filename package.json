@@ -1,5 +1,5 @@
 {
-  "name": "react-native-turbo-base64",
+  "name": "react-native-ultra-base64",
   "version": "0.1.4",
   "description": "⚡ The fastest base64 encoding/decoding library for React Native. Up to 5x faster with highly optimized C++ and JSI bindings.",
   "main": "./lib/commonjs/index.js",
@@ -27,7 +27,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-turbo-base64-example",
+    "example": "yarn workspace react-native-ultra-base64-example",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
     "typecheck": "tsc",
@@ -43,7 +43,7 @@
     "fast",
     "performance",
     "jsi",
-    "turbo",
+    "ultra",
     "native",
     "cpp",
     "ios",
@@ -57,14 +57,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pioner92/react-native-turbo-base64.git"
+    "url": "git+https://github.com/pioner92/react-native-ultra-base64.git"
   },
   "author": "Alex Shumihin <shumolek@gmail.com> (https://github.com/pioner92)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pioner92/react-native-turbo-base64/issues"
+    "url": "https://github.com/pioner92/react-native-ultra-base64/issues"
   },
-  "homepage": "https://github.com/pioner92/react-native-turbo-base64#readme",
+  "homepage": "https://github.com/pioner92/react-native-ultra-base64#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

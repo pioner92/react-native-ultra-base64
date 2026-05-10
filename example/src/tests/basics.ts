@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import {  getNative } from 'react-native-turbo-base64'
+import {  getNative } from 'react-native-ultra-base64'
 import { describe, it } from '../MochaRNAdapter'
 
 describe('basics', () => {

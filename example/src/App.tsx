@@ -8,7 +8,7 @@ const isHermes = () => !!global.HermesInternal
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>react-native-turbo-base64</Text>
+      <Text style={styles.title}>react-native-ultra-base64</Text>
       <ScrollView style={styles.contentView}>
         <View style={styles.section}>
           <Text style={styles.sectionText}>Setup</Text>

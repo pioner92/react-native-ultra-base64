@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "turbobase64.example"
+    namespace "ultrabase64.example"
     defaultConfig {
-        applicationId "turbobase64.example"
+        applicationId "ultrabase64.example"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,5 +1,5 @@
 buildscript {
-  def kotlin_version = rootProject.ext.has("kotlinVersion") ? rootProject.ext.get("kotlinVersion") : project.properties["RNTurboBase64_kotlinVersion"]
+  def kotlin_version = rootProject.ext.has("kotlinVersion") ? rootProject.ext.get("kotlinVersion") : project.properties["RNUltraBase64_kotlinVersion"]
 
   repositories {
     google()
@@ -41,7 +41,7 @@ if (isNewArchitectureEnabled()) {
 }
 
 android {
-  namespace "com.turbobase64"
+  namespace "com.ultrabase64"
 
   compileSdkVersion getExtOrDefault("compileSdkVersion")
 
