@@ -12,7 +12,7 @@ Ultra-fast base64 operations powered by optimized C++ with JSI bindings. Built f
 
 ## 🚀 Why Choose This Library?
 
-- **🏎️ Blazing Fast** - Up to **5x faster** than other native base64 libraries
+- **🏎️ Blazing Fast** - Up to **2x faster** than react-native-quick-base64 v3
 - **⚡ Zero Bridge Overhead** - Direct JSI bindings eliminate React Native bridge bottleneck
 - **🌐 URL-Safe Support** - Native support for URL-safe base64 encoding/decoding
 - **📦 Small Bundle** - Minimal JavaScript footprint, heavy lifting done in native code
@@ -23,11 +23,11 @@ Ultra-fast base64 operations powered by optimized C++ with JSI bindings. Built f
 
 ## 📊 Performance
 
-Benchmark results
+Benchmark against **react-native-quick-base64 v3**
 
-| iPhone                                            | Android                                             |
-| ------------------------------------------------- | --------------------------------------------------- |
-| ![iPhone](./assets/iphone.png) | ![Android](./assets/android.png) |
+| iPhone | Android |
+| ------ | ------- |
+| <img src="./assets/iphone.png" height="600"> | <img src="./assets/android.png" height="600"> |
 
 
 > 💡 **Performance scales with data size** - the larger your data, the more dramatic the improvement!
@@ -278,7 +278,7 @@ async function encryptAndEncode(plaintext: string) {
 
 | Feature | react-native-turbo-base64 | react-native-quick-base64 |
 |---------|--------------------------|---------------------------|
-| **Speed** | ⚡⚡⚡⚡⚡ Fastest | ⚡⚡⚡ Fast |
+| **Speed** | ⚡⚡⚡⚡⚡ ~2x faster | ⚡⚡⚡ Fast |
 | **JSI Bindings** | ✅ | ✅ |
 | **URL-safe Support** | ✅ | ✅ |
 | **TypeScript** | ✅ | ✅ |
